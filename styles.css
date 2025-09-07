@@ -1,0 +1,21 @@
+/* style.css */
+
+/* Navbar links hover effect */
+nav a:hover {
+    color: #2563eb; /* Tailwind blue-600 */
+}
+
+/* Footer styling */
+footer {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hero text shadow */
+header div h1, header div p {
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+/* Buttons */
+.btn-donate {
+    @apply bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-6 rounded;
+}
